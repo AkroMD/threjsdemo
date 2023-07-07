@@ -1,0 +1,139 @@
+
+html {
+    overflow: hidden;
+    font-family: math;
+}
+
+.game-canvas {
+    position: absolute;
+}
+
+.score {
+    position: absolute;
+    font-size: 3rem;
+    top: 50px;
+    left: 50px;
+    text-align: center;
+    background-color: #fcddb361;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.2s;
+    opacity: 0;
+}
+
+.main-menu {
+    transition: 0.8s;
+    opacity: 0;
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 5px;
+    margin-top: 20px;
+    font-size: 3rem;
+    right: 100px;
+    top: 20%;
+    background-color: #fcddb361;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.menu-item {
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.menu-item:hover {
+    color: aliceblue;
+    background-color: #88888878;
+}
+
+.hint-open {
+    position: absolute;
+    font-size: 2.5rem;
+    color: white;
+    bottom: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    font-size: 6rem;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    background-color: #fcddb361;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.hint-start {
+    position: absolute;
+    font-size: 2.5rem;
+    color: white;
+    bottom: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.treasure-score {
+    position: absolute;
+    font-size: 2rem;
+    bottom: 150px;
+    left: 50px;
+    text-align: center;
+    background-color: #fcddb361;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.2s;
+    opacity: 0;
+}
+
+.timer-score {
+    position: absolute;
+    font-size: 2rem;
+    bottom: 250px;
+    left: 50px;
+    text-align: center;
+    background-color: #fcddb361;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.best-time {
+    position: absolute;
+    font-size: 2rem;
+    bottom: 250px;
+    left: 50px;
+    text-align: center;
+    background-color: #fcddb361;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.win-title {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    background-color: #fcddb361;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.open {
+    opacity: 1;
+}
